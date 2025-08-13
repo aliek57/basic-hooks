@@ -28,8 +28,8 @@
 .switch {
   position: relative;
   display: inline-block;
-  width: 45px;
-  height: 20px;
+  width: 50px;
+  height: 25px;
 }
 
 .switch input {
@@ -53,8 +53,8 @@
 .slider:before {
   position: absolute;
   content: "";
-  height: 15px;
-  width: 15px;
+  height: 20px;
+  width: 20px;
   left: 1px;
   bottom: 2px;
   background-color: white;
@@ -77,7 +77,7 @@ input:checked + .slider:before {
 }
 
 .slider.round {
-  border-radius: 34px;
+  border-radius: 30px;
 }
 
 .slider.round:before {
