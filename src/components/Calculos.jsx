@@ -1,4 +1,5 @@
 import {useState, useMemo, useCallback} from 'react'
+import './Calculos.css'
 
 const Calculos = () => {
     const [numero, setNumero] = useState([1, 2, 3]);
@@ -15,7 +16,7 @@ const Calculos = () => {
         return numero.filter(num => num%2 == 0);
     }, [numero]); // Se o array mudar a função vai ser recriada
   return (
-    <div>        
+    <div className='Calculos'>        
         <h3>Números: {numero.join(" ")}</h3>
         <h4>Soma: {soma}</h4>
         <h4>Pares: {filtrarPares().join(" ")}</h4>

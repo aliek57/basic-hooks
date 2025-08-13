@@ -1,14 +1,16 @@
 nav {
     display: flex;
     justify-content: center;
+    margin: 2rem;
 }
 
 nav a {
     margin: 0 1rem;
     padding: 5px;
+    color: #161a6d;
 }
 
 .active {
-    border-bottom: 2px solid #d15807;
+    border-bottom: 2px solid #9842b9;
     color: #161a6d;
 }

@@ -12,7 +12,8 @@ function App() {
       <h1>Hooks do React</h1>
       <Navbar />
       <Outlet/>
-      <p>O tema atual é: {theme}</p>
+      <p>A troca de cor de tema é fornecida pelo Context</p>
+      <p id='info'>O tema atual é: <span className='highlight'>{theme}</span></p>
       <div className='theme-toggle'>
         <h4>Mudar tema</h4>
         <label class="switch">
